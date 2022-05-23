@@ -13,9 +13,6 @@ List<int> selectionSortAlg(List<int> list) {
       counter++;
       if (list[j] < list[min]) {
         min = j;
-        // list[j + 1] = list[j];
-        // list[j] = num;
-
       }
       print('==============inside==============');
       print(list);
