@@ -4,7 +4,6 @@ void main(List<String> args) {
 }
 
 List<int> selectionSortAlg(List<int> list) {
-  int min = 0;
   int counter = 0;
   for (int i = 0; i < list.length; i++) {
     int min = i;
