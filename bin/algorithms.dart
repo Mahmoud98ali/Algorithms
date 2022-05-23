@@ -19,7 +19,7 @@ List<int> bubbleSortAlg(List<int> list) {
     }
     if (noSwap) break;
   }
-
+  print(counter);
   print(counter);
   return list;
 }
